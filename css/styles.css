@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(1, 56, 58, 1)
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+ol{
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding-right: 40px;
+    padding-right: 40px;
+}
+/* ------------------Top-blog-article----------------- */
+.container-top {
+    padding-top: 112px;
+}
+
+.blog-article-title{
+    font-weight: 600;
+        font-size: 56px;
+        line-height: 1;
+        color: #FFFFFF;
+        margin-bottom: 59px;
+        text-align: center;
+}
+.title-top{
+    display: flex;
+    gap: 96px;
+    margin-bottom: 24px;
+    justify-content: flex-end;
+    margin-right: 40px;
+    gap: 96px;
+    min-width: 1240px;
+}
+
+.title-top-first {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #86E543;
+}
+
+.title-top-second {
+font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #8D9289;
+}
+.top-img{
+    margin-left: 40px;
+}
+.top-text {
+    max-width: 690px;
+    max-height: 336px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #FFFFFF;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.cover-top {
+    display: flex;
+    gap: 121px;
+    justify-content: center;
+
+}
+
+/* ------middle-blog-article----------- */
+.middle-title {
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #86E543;
+    max-width: 600px;
+}
+
+.middle-list {
+font-weight: 400;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #86E543;
+    margin-left: 30px;
+}
+
+/* ------bottom-blog-article----------- */
+.container-bottom {
+    padding-bottom: 120px;
+}
+.bottom-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #FFFFFF;
+    margin-top: 24px;
+    max-width: 1200px;
+}
+.bottom-paragraph:not(:last-child){
+    margin-bottom: 24px;
+}
